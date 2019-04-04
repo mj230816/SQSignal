@@ -15,6 +15,8 @@
 		9D036996224569AE00F815D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D036995224569AE00F815D4 /* main.m */; };
 		9D0369A0224569AE00F815D4 /* SQSignalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03699F224569AE00F815D4 /* SQSignalTests.m */; };
 		9D0369AB224569AE00F815D4 /* SQSignalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0369AA224569AE00F815D4 /* SQSignalUITests.m */; };
+		9D0369C222456B9A00F815D4 /* SQSignsl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0369C022456B9A00F815D4 /* SQSignsl.m */; };
+		9D0369C322456B9A00F815D4 /* SQSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0369C122456B9A00F815D4 /* SQSubscriber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9D0369A6224569AE00F815D4 /* SQSignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQSignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0369AA224569AE00F815D4 /* SQSignalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQSignalUITests.m; sourceTree = "<group>"; };
 		9D0369AC224569AE00F815D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0369BE22456B9A00F815D4 /* SQSignsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSignsl.h; sourceTree = "<group>"; };
+		9D0369BF22456B9A00F815D4 /* SQSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSubscriber.h; sourceTree = "<group>"; };
+		9D0369C022456B9A00F815D4 /* SQSignsl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSignsl.m; sourceTree = "<group>"; };
+		9D0369C122456B9A00F815D4 /* SQSubscriber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSubscriber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				9D036987224569AD00F815D4 /* AppDelegate.m */,
 				9D036989224569AD00F815D4 /* ViewController.h */,
 				9D03698A224569AD00F815D4 /* ViewController.m */,
+				9D0369BE22456B9A00F815D4 /* SQSignsl.h */,
+				9D0369C022456B9A00F815D4 /* SQSignsl.m */,
+				9D0369BF22456B9A00F815D4 /* SQSubscriber.h */,
+				9D0369C122456B9A00F815D4 /* SQSubscriber.m */,
 				9D03698C224569AD00F815D4 /* Main.storyboard */,
 				9D03698F224569AE00F815D4 /* Assets.xcassets */,
 				9D036991224569AE00F815D4 /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0369C322456B9A00F815D4 /* SQSubscriber.m in Sources */,
 				9D03698B224569AD00F815D4 /* ViewController.m in Sources */,
+				9D0369C222456B9A00F815D4 /* SQSignsl.m in Sources */,
 				9D036996224569AE00F815D4 /* main.m in Sources */,
 				9D036988224569AD00F815D4 /* AppDelegate.m in Sources */,
 			);
